@@ -17,7 +17,7 @@ module.exports = function (gulp, plugins) {
         stream
             .on('restart', function () {
                 console.log('restarted!')
-                gulp.src('server.js')
+                gulp.src('server.js', {'allowEmpty':true})
                     .pipe(plugins.livereload())
                     .pipe(plugins.notify('Reloading page, please wait...'));
             })
