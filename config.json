@@ -1,0 +1,118 @@
+{
+	"title": "QlikBotNode",
+	"name": "qlikbotnode",
+	"version": "1.3.0",
+	"qvf": {
+		"comercial": {
+			"host": "app.agroview.com.br",
+			"appId": "caf95625-1cc8-4634-b780-d5c6ef11d74b",
+            "auth" : true,
+            "userDirectory": "BRIDAD1"
+		},
+		"forcadevendas": {
+			"host": "app.agroview.com.br",
+			"appId": "ef4d19d1-05a7-489f-bbd3-f0d92eb45f1b",
+            "auth" : true,
+            "userDirectory": "BRIDAD1"
+		}
+	},
+	"text": {
+		"title": "English",
+		"welcome": "Hello %s and Welcome to Qlik Sense Bot.<br>Thanks for adding me into your contacts.<br>Type 'help' for all available commands.",
+		"viewDemo": "View Demo",
+		"actions": "Select one of the actions below:",
+		"no_command": "Command '%s', does not exist",
+		"help": {
+			"title": "Help",
+			"text": "Please select one of the available apps below, or change your language."
+		},
+		"exit": {
+			"button": "Exit",
+			"text": "Goodbye!"
+		},
+		"language": {
+			"button": "Language",
+			"text": "Select one the below available languages:",
+			"set": "Your language has been set to **English**"
+		},
+		"salesforce": {
+			"title": "Salesforce",
+			"welcome": "Welcome to Salesforce",
+			"dashboard": {
+				"button": "Dashboard",
+				"text": "**Salesforce - Dashboard** \n\n OPEN OPPS VALUE: **%s** \n\n OPEN OPPS: **%s** \n\n NEW CUSTOMERS: **%s** \n\n EXISTING CUSTOMERS: **%s** \n\n WIN RATE: **%s**",
+				"title": "Salesforce - Dashboard",
+				"kpi1": "OPEN OPPS VALUE",
+				"kpi2": "OPEN OPPS",
+				"kpi3": "NEW CUSTOMERS",
+				"kpi4": "EXISTING CUSTOMERS",
+				"kpi5": "WIN RATE"
+			},
+			"opportunities": {
+				"button": "Opportunities",
+				"title": "Salesforce - Opportunities",
+				"text": "**Salesforce - Opportunities** \n\n OPEN OPPS VALUE: **%s** \n\n OPEN OPPS: **%s** \n\n CLOSED WON OPPS VALUE: **%s** \n\n CLOSED WON OPPS: **%s** \n\n CLOSED LOST oPPS VALUE: **%s**, WIN RATE: **%s**",
+				"kpi1": "OPEN OPPS VALUE",
+				"kpi2": "OPEN OPPS",
+				"kpi3": "CLOSED WON OPPS VALUE",
+				"kpi4": "CLOSED WON OPPS",
+				"kpi5": "CLOSED LOST oPPS VALUE",
+				"kpi6": "CLOSED LOST OPPS",
+				"kpi7": "WIN RATE"
+			}
+		},
+		"cio": {
+			"title": "CIO Dashboard",
+			"welcome": "Welcome to CIO Dashboard",
+			"management": {
+				"button": "Management",
+				"title": "CIO Dashboard - Management",
+				"text": "**CIO Dashboard - Management** \n\n 2016 Cost YTD: **%s** \n\n vs Budget YTD: **%s** \n\n Diff: **%s** \n\n Service Level: **%s** \n\n Service Level Goal: **99.70** \n\n Diff: **%s**",
+				"kpi1": "2016 Cost YTD",
+				"kpi2": "vs Budget YTD",
+				"kpi3": "Diff",
+				"kpi4": "Service Level",
+				"kpi5": "Service Level Goal",
+				"kpi6": "Diff"
+			},
+			"customer": {
+				"button": "Customer Service",
+				"title": "CIO Dashboard - Customer Service",
+				"text": "**CIO Dashboard - Customer Service** \n\n Grade YTD: **%s** \n\n Grade Target: **3.75** \n\n Diff: **%s** \n\n Resolved Tickets: **%s** \n\n Open Tickets: **%s** \n\n Avg Resolution Time (hrs): **%s** \n\n Resolution Time Target (hrs): **%s** \n\n Diff: **%s**",
+				"kpi1": "Grade YTD",
+				"kpi2": "Grade Target",
+				"kpi3": "Diff",
+				"kpi4": "Resolved Tickets",
+				"kpi5": "Open Tickets",
+				"kpi6": "Avg Resolution Time (hrs)",
+				"kpi7": "Resolution Time Target (hrs)",
+				"kpi8": "Diff"
+			}
+		},
+		"helpdesk": {
+			"title": "Helpdesk",
+			"welcome": "Welcome to HelpDesk. Click on a button or type any of the following commands: ",
+			"highPriorityCases": {
+				"button": "High Priority Cases",
+				"title": "HelpDesk - High Priority Cases",
+				"text": "We have **%s** of High Priority Cases",
+				"kpi1": "We have",
+				"kpi2": "of High Priority Cases"
+			},
+			"mediumPriorityCases": {
+				"button": "Medium Priority Cases",
+				"title": "HelpDesk - Medium Priority Cases",
+				"text": "We have **%s** of Medium Priority Cases",
+				"kpi1": "We have",
+				"kpi2": "of Medium Priority Cases"
+			},
+			"lowPriorityCases": {
+				"button": "Low Priority Cases",
+				"title": "HelpDesk - Low Priority Cases",
+				"text": "We have **%s** of Low Priority Cases",
+				"kpi1": "We have",
+				"kpi2": "of Low Priority Cases"
+			}
+		}
+	}
+}

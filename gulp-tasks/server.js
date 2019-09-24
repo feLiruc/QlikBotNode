@@ -3,13 +3,9 @@ module.exports = function (gulp, plugins) {
         // configure nodemon
         plugins.livereload.listen();
         var stream = plugins.nodemon({
-            script: 'app/server/server.js',
+            script: './script.js',
             watch: [
-                "app/server/server.js", 
-                "app/server/app.js", 
-                "app/server/routes/", 
-                "app/server/models/", 
-                'app/public/', 
+                "./script.js"
             ],
             ext: 'js html css',
             port: 3000
